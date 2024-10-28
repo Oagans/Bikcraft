@@ -1,0 +1,13 @@
+:root {
+    --color-fundo: #f7f7f7;
+    --color-texto: #c6c6c6;
+    --color-red: #ee2211;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
