@@ -58,6 +58,33 @@ margin-top: 4rem;
     justify-content: center;
 }
 
+.especificacoes {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+}
 
+.espec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 
+}
 
+.espec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.espec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
