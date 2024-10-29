@@ -3,6 +3,7 @@
     --color-texto: #c6c6c6;
     --color-red: #ee2211;
     --color-light: #ffffff;
+    --color-black: #000;
 }
 
 * {
@@ -37,4 +38,9 @@ li {
     list-style: none;
     padding: 1rem 2rem;
     font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-black);
 }
