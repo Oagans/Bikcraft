@@ -2,6 +2,7 @@
     --color-fundo: #f7f7f7;
     --color-texto: #c6c6c6;
     --color-red: #ee2211;
+    --color-light: #ffffff;
 }
 
 * {
@@ -11,3 +12,29 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    font-size: 64.5%;
+}
+
+body {
+    background-color: var(--color-fundo);
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+}
+
+ul {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+li {
+    background: var(--color-light);
+    list-style: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
