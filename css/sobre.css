@@ -1,7 +1,7 @@
 .sobre {
 display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(2, 1fr);
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto auto;
 margin: 0 12rem;
 margin-top: 4rem;
 }
@@ -12,6 +12,7 @@ margin-top: 4rem;
 
 
 .info {
+    background-color: var(--color-light);
     text-align: end;
     font-size: 2rem;
     display: flex;
@@ -19,7 +20,7 @@ margin-top: 4rem;
     justify-content: center;
     align-items: end;
     gap: 1.5rem;
-    padding: 1rem; 
+    padding: 3rem; 
     
 }
 
@@ -50,7 +51,7 @@ margin-top: 4rem;
     color: var(--color-texto);
     background-color: var(--color-fundo);
     padding: 1rem;
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: 550;
     text-align: end;
     display: flex;
@@ -59,32 +60,50 @@ margin-top: 4rem;
 }
 
 .especificacoes {
-    padding: 1rem;
+    background-color: var(--color-light);
+    width: fit-content;
+    height: fit-content;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 6rem;
+    padding: 5rem;
+}
+
+.card4 {
+    display: flex;
     justify-content: center;
-    gap: 2rem;
-    
+    align-items: center;
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
 }
 
 .espec1 {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-
+   display: grid;
+   grid-template-columns: auto 1fr;
+   align-items: center;
+   gap: 2rem;
 }
 
-.espec2 {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
 
+.espec2 {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 2rem;
 }
 
 .espec3 {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 2rem;
+}
 
+.descricao {
+    font-size: 15px;
+    grid-column: 2;
 }
