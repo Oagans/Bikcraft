@@ -19,11 +19,13 @@ margin-top: 4rem;
     justify-content: center;
     align-items: end;
     gap: 1.5rem;
-    margin-right: 2rem; 
+    padding: 1rem; 
+    
 }
 
+
 .info h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: end;
     font-weight: 700;
 }
@@ -32,11 +34,30 @@ margin-top: 4rem;
     background-color: var(--color-red);
     color: var(--color-light);
     width: fit-content;
-    padding: 1rem;
+    font-size: 13px;
+    padding: 1rem 2rem;
     border-radius: 4px;
-    font-size: 1.5rem;
     
 }
+
+.info p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.vantagens {
+    color: var(--color-texto);
+    background-color: var(--color-fundo);
+    padding: 1rem;
+    font-size: 5rem;
+    font-weight: 550;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 
 
