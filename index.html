@@ -1,75 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bikcraft</title>
 
     <!-- Chamada para o CSS! -->
-    <link rel="stylesheet" href="/css/base.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/sobre.css">
-    <link rel="stylesheet" href="/css/footer.css">
-</head>
-<body>
-    <h1><img src="/img/bikcraft.svg" alt=""></h1>
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/sobre.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+  </head>
+  <body>
+    
+    <img src="/img/bikcraft.svg" alt="" />
 
     <header>
-        <ul>
-            <a href=""><li>SOBRE</li></a>
-            <a href=""><li>PRODUTOS</li></a>
-            <a href=""><li>LOJAS</li></a>
-            <a href=""><li>CONTATO</li></a>
-        </ul>
+      <ul>
+        <li><a href="">sobre</a></li>
+        <li><a href="">produtos</a></li>
+        <li><a href="">loja</a></li>
+        <li><a href="">contato</a></li>
+      </ul>
     </header>
 
-    <div class="linha"></div>
+    <section class="cards">
 
-    <section class="sobre">
-        
-        <div class="info">
-            <h1>Bicicletas Feitas a Mão</h1>
-            <p>A Nimbus Stark é a melhor Bikcraft já  criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
-            <a href="">VER MAIS</a>
-        </div>
-        
-        <div class="nimbus">
-            <img class="bike" src="/img/bicicleta.jpg" alt="">
-        </div>
-        
-        <div class="vantagens">
-            <p>VANTAGENS BIKCRAFT</p>
-        </div>
-        <div class="card4">
+      <div class="card-info">
+        <span></span>
+        <h1>Bicicletas Feitas a Mão</h1>
+        <p>
+          A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela
+          vem equipada com os melhores acessórios da marca.
+        </p>
+        <a href="">VER MAIS</a>
+      </div>
+      <img src="/img/bicicleta.jpg" alt="Bikcraft preta" />
 
-            <div class="especificacoes">
-                <div class="espec1">
-                    <div class="icon">
-                        <img src="./img/eletrica.svg" alt="">
-                    </div>
-                    <h2>Motor Elétrico</h2>
-                    <p class="descricao">Permite você viajar distâncias inimagináveis com a sua bike</p>
-                </div>
-                <div class="espec2">
-                    <div class="icon">
-                        <img src="./img/velocidade.svg" alt="">
-                    </div>
-                    <h2>40km/h</h2>
-                    <p class="descricao">A mais rápida bicicleta elétrica disponível no mercado!</p>
-                </div>
-                <div class="espec3">
-                    <div class="icon">
-                        <img src="./img/rastreador.svg" alt="">
-                    </div>
-                    <h2>Rastreador</h2>
-                    <p class="descricao">Rastreador e sistema anti-furto para garantir o seu sossego!</p>
-                </div>
-            </div>
+      <div class="card-vantagens">
+        <h2>
+            VANTAGENS BIKCRAFT
+        </h2>
+      </div>
+
+      <div class="card-especificacoes">
+
+        <div class="especificacoes-item">
+          <div class="icon">
+            <img src="./img/eletrica.svg" alt="" />
+          </div>
+          <h3>Motor Elétrico</h3>
+          <p>
+            Permite você viajar distâncias inimagináveis com a sua bike
+          </p>
         </div>
+
+        <div class="especificacoes-item">
+          <div class="icon">
+            <img src="./img/velocidade.svg" alt="" />
+          </div>
+          <h3>40km/h</h3>
+          <p>
+            A mais rápida bicicleta elétrica disponível no mercado!
+          </p>
+        </div>
+
+        <div class="especificacoes-item">
+          <div class="icon">
+            <img src="./img/rastreador.svg" alt="" />
+          </div>
+          <h3>Rastreador</h3>
+          <p>
+            Rastreador e sistema anti-furto para garantir o seu sossego!
+          </p>
+        </div>
+
     </section>
 
     <footer>
-        <p>Bikcraft. Alguns direitos reservados.</p>
+      <p>Bikcraft. Alguns direitos reservados.</p>
     </footer>
-</body>
+
+  </body>
 </html>

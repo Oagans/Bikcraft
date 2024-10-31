@@ -1,114 +1,88 @@
-.sobre {
-width: 90%;
-margin: 3rem auto;
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: auto 1fr;
+.cards {
+  margin:0 8rem ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.bike {
+span {
+    width: 5.5rem;
+    height: .3rem;
+    background-color: var(--color-red);
+    position:absolute;
+    top: 4rem;
+    right: -2.6rem;
+}
+
+
+.card-info {
+  background-color: var(--color-light);
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  gap: 1.5rem;
+  padding: 3rem;
+  position: relative;
+}
+
+.card-info h1 {
+  font-size: 2.5rem;
+  text-align: end;
+  font-weight: 700;
+}
+
+.card-info a {
+  background-color: var(--color-red);
+  color: var(--color-light);
+  width: fit-content;
+  font-size: 13px;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+}
+
+
+img {
     max-width: 100%;
 }
 
-
-.info {
-    background-color: var(--color-light);
-    text-align: end;
-    font-size: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: end;
-    gap: 1.5rem;
-    padding: 3rem; 
-    
+.card-vantagens {
+  color: var(--color-texto);
+  background-color: var(--color-fundo);
+  padding: 2rem;
+  font-size: 5rem;
+  text-align: end;
+  align-self: center;
 }
 
-
-.info h1 {
-    font-size: 2.5rem;
-    text-align: end;
-    font-weight: 700;
+.card-especificacoes {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 4rem;
+  background-color: var(--color-light);
 }
 
-.info a {
-    background-color: var(--color-red);
-    color: var(--color-light);
-    width: fit-content;
-    font-size: 13px;
-    padding: 1rem 2rem;
-    border-radius: 4px;
-    
-}
-
-.info p {
-    font-size: 15px;
-    font-weight: 500;
-}
-
-
-.vantagens {
-    color: var(--color-texto);
-    background-color: var(--color-fundo);
-    padding: 1rem;
-    font-size: 6rem;
-    font-weight: 550;
-    text-align: end;
-    align-self: center;
-}
-
-.especificacoes {
-    display: flex;
-    flex-direction: column;
-    gap: 6rem;
-    padding: 5rem 4rem;
-}
-
-.card4 {
-    background-color: var(--color-light);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+.card-especificacoes p {
+    grid-column: 2;
+  }
+  
 
 .icon {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.espec1 {
-   display: grid;
-   grid-template-columns: auto 1fr;
-   align-items: center;
-   gap: 2rem;
+.especificacoes-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 2rem 1rem;
+}
+
+.especificacoes-item h3 {
+    font-size: 2rem;
 }
 
 
-.espec2 {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    gap: 2rem;
-}
 
-.espec3 {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    gap: 2rem;
-}
-
-.descricao {
-    font-size: 15px;
-    grid-column: 2;
-}
-
-.linha {
-    height: 0px;
-    width: 70px;
-    border: 2px solid var(--color-red);
-    position:relative;
-    left: 596px;
-    top:80px
-}
