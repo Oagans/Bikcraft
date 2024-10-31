@@ -1,9 +1,9 @@
 .sobre {
+width: 90%;
+margin: 3rem auto;
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto 1fr;
-margin: 0 12rem;
-margin-top: 4rem;
 }
 
 .bike {
@@ -54,9 +54,7 @@ margin-top: 4rem;
     font-size: 6rem;
     font-weight: 550;
     text-align: end;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-self: center;
 }
 
 .especificacoes {
