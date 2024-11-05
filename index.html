@@ -8,33 +8,39 @@
     <!-- Chamada para o CSS! -->
     <link rel="stylesheet" href="/css/base.css" />
     <link rel="stylesheet" href="/css/header.css" />
-    <link rel="stylesheet" href="/css/sobre.css" />
+    <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/footer.css" />
   </head>
   <body>
     
-    <img src="/img/bikcraft.svg" alt="" />
+    
 
     <header>
-      <ul>
-        <li><a href="">sobre</a></li>
-        <li><a href="">produtos</a></li>
-        <li><a href="">loja</a></li>
-        <li><a href="">contato</a></li>
-      </ul>
+
+      <img src="/img/bikcraft.svg" alt="" />
+
+      <nav aria-label="menu">
+        <ul>
+          <li><a href="">sobre</a></li>
+          <li><a href="">produtos</a></li>
+          <li><a href="">loja</a></li>
+          <li><a href="">contato</a></li>
+        </ul>
+      </nav>
+
     </header>
 
-    <section class="cards">
+    <main class="cards">
 
-      <div class="card-info">
-        <span></span>
-        <h1>Bicicletas Feitas a Mão</h1>
+      <div class="card-info" aria-labelledby="sobre">
+        <h1 id="sobre">Bicicletas Feitas a Mão</h1>
         <p>
           A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela
           vem equipada com os melhores acessórios da marca.
         </p>
         <a href="">VER MAIS</a>
       </div>
+
       <img src="/img/bicicleta.jpg" alt="Bikcraft preta" />
 
       <div class="card-vantagens">
@@ -75,7 +81,7 @@
           </p>
         </div>
 
-    </section>
+      </main>
 
     <footer>
       <p>Bikcraft. Alguns direitos reservados.</p>
