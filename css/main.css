@@ -39,8 +39,13 @@ span {
   font-size: 1.3rem;
   padding: 1rem 2rem;
   border-radius: 0.4rem;
+  text-decoration: none;
+  transition: 0.3s
 }
 
+.card-info a:hover {
+  background-color: var(--color-buttom-hover);
+}
 
 img {
     max-width: 100%;
@@ -63,12 +68,18 @@ img {
   flex-direction: column;
   padding: 5rem 4rem;
   background-color: var(--color-light);
+  position: relative;
+
 }
+
 
 .card-especificacoes p {
     grid-column: 2;
   }
   
+.card-especificacoes .especificacoes-item:nth-child(odd) {
+  background-color: var(--color-fundo);
+} 
 
 .icon {
   display: flex;
@@ -77,7 +88,7 @@ img {
 
 .especificacoes-item {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto auto 1fr;
   align-items: center;
   padding: 1.5rem;
   gap: 2rem 1rem;
@@ -87,5 +98,35 @@ img {
     font-size: 2rem;
 }
 
+.spec1:hover::before {
+  content: "";
+  grid-column: 1;
+  width: 0.5rem;
+  height: 12.5rem;
+  position: absolute;
+  background-color: var(--color-red);
+  left: 4rem;
+}
+
+.spec2:hover::before {
+  content: "";
+  grid-column: 1;
+  width: 0.5rem;
+  height: 12.5rem;
+  position: absolute;
+  background-color: var(--color-red);
+  left: 4rem;
+}
+
+
+.spec3:hover::before {
+  content: "";
+  grid-column: 1;
+  width: 0.5rem;
+  height: 12.5rem;
+  position: absolute;
+  background-color: var(--color-red);
+  left: 4rem;
+}
 
 
