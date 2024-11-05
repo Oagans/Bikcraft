@@ -4,16 +4,6 @@
   grid-template-columns: 1fr 1fr;
 }
 
-span {
-    width: 5.5rem;
-    height: .3rem;
-    background-color: var(--color-red);
-    position:absolute;
-    top: 4rem;
-    right: -2.6rem;
-}
-
-
 .card-info {
   background-color: var(--color-light);
   text-align: end;
@@ -24,6 +14,16 @@ span {
   gap: 1.5rem;
   padding: 3rem;
   position: relative;
+}
+
+.card-info::after {
+  content: "";
+  width: 8rem;
+  height: .3rem;
+  background-color: var(--color-red);
+  position:absolute;
+  top: 3rem;
+  right: -3.9rem;
 }
 
 .card-info h1 {
