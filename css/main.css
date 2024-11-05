@@ -49,6 +49,9 @@ img {
 .card-vantagens {
   color: var(--color-texto);
   background-color: var(--color-fundo);
+  background-image: url(../img/onda.svg);
+  background-position: center top;
+  background-size: 40rem;
   padding: 2rem;
   font-size: 5rem;
   text-align: end;
