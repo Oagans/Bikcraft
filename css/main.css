@@ -36,9 +36,9 @@ span {
   background-color: var(--color-red);
   color: var(--color-light);
   width: fit-content;
-  font-size: 13px;
+  font-size: 1.3rem;
   padding: 1rem 2rem;
-  border-radius: 4px;
+  border-radius: 0.4rem;
 }
 
 
