@@ -6,7 +6,7 @@ header {
 }
 
 
-ul {
+nav ul {
     display: flex;
     justify-content: center;
     gap: 5rem;
