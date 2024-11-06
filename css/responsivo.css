@@ -58,6 +58,10 @@ img {
     .card-especificacoes h3  {
         font-size: 1.7rem;
     }
+
+    li a {
+        font-size: 1.2rem;
+    }
 }
 
 @media (width <= 720px) {
@@ -142,5 +146,13 @@ img {
 
     .card-especificacoes h3  {
         font-size: 0.8rem;
+    }
+
+    .cards {
+        margin: 0 4rem;
+    }
+
+    li a {
+        font-size: 1rem;
     }
 }
