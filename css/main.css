@@ -47,9 +47,7 @@
   background-color: var(--color-buttom-hover);
 }
 
-img {
-    max-width: 100%;
-}
+
 
 .card-vantagens {
   color: var(--color-texto);

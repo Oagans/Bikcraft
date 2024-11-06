@@ -1,0 +1,146 @@
+/* Definindo o tamanho da div main! */
+
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+}
+
+@media (width >= 1400px) {
+    main {
+        max-width: 1450px;
+    }
+
+}
+
+@media (width <= 1200px) {
+    .card-vantagens h2 {
+        font-size: 6rem;
+    }
+}
+
+@media (width <= 1000px) {
+    .card-vantagens h2 {
+        font-size: 5rem;
+    }
+}
+
+@media (width <= 950px) {
+    .card-vantagens h2 {
+        font-size: 4rem;
+    }
+}
+
+@media (width <= 768px) {
+
+    .card-info h1 {
+        font-size: 2rem;
+    }
+
+    .card-info p {
+        font-size: 1.7rem;
+    }
+
+    .card-vantagens h2 {
+        font-size: 3rem;
+    }
+
+    .card-especificacoes img {
+        min-width: 24px;
+    }
+
+    .card-especificacoes p  {
+        font-size: 1.7rem;
+    }
+
+    .card-especificacoes h3  {
+        font-size: 1.7rem;
+    }
+}
+
+@media (width <= 720px) {
+
+    .card-info h1 {
+        font-size: 1.7rem;
+    }
+
+    .card-info p {
+        font-size: 1.4rem;
+    }
+
+
+    .card-especificacoes p  {
+        font-size: 1.4rem;
+    }
+
+    .card-especificacoes h3  {
+        font-size: 1.4rem;
+    }
+}
+
+@media (width <= 670px) {
+
+    .card-info h1 {
+        font-size: 1.5rem;
+    }
+
+    .card-info p {
+        font-size: 1.2rem;
+    }
+
+    .card-especificacoes p  {
+        font-size: 1.2rem;
+    }
+
+    .card-especificacoes h3  {
+        font-size: 1.2rem;
+    }
+}
+
+@media (width <= 640px) {
+
+    .card-info h1 {
+        font-size: 1.2rem;
+    }
+
+    .card-info p {
+        font-size: 1.1rem;
+    }
+
+    .card-vantagens h2 {
+        font-size: 2.5rem;
+    }
+
+    .card-especificacoes p  {
+        font-size: 0.9rem;
+    }
+
+    .card-especificacoes h3  {
+        font-size: 0.9rem;
+    }
+}
+
+@media (width <= 610px) {
+
+    .card-info h1 {
+        font-size: 1.2rem;
+    }
+
+    .card-info p {
+        font-size: 1.1rem;
+    }
+
+    .card-vantagens h2 {
+        font-size: 2.5rem;
+    }
+
+    .card-especificacoes p  {
+        font-size: 0.8rem;
+    }
+
+    .card-especificacoes h3  {
+        font-size: 0.8rem;
+    }
+}
