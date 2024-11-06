@@ -1,6 +1,3 @@
-/* Definindo o tamanho da div main! */
-
-
 .bike img {
     max-width: 100%;
     object-fit: cover;
@@ -8,151 +5,140 @@
 
 }
 
-@media (width >= 1400px) {
+@media (width >= 1200px) {
     main {
-        max-width: 1450px;
-    }
-
-}
-
-@media (width <= 1200px) {
-    .card-vantagens h2 {
-        font-size: 6rem;
+        max-width: 1200px;
     }
 }
 
-@media (width <= 1000px) {
-    .card-vantagens h2 {
-        font-size: 5rem;
+@media (width <= 1195px) {
+    .vantagens {
+        grid-template-columns: 1fr;
     }
-}
 
-@media (width <= 950px) {
-    .card-vantagens h2 {
+    .card-vantagens {
+        text-align: center;
         font-size: 4rem;
     }
 }
 
-@media (width <= 768px) {
-
-    .card-info h1 {
-        font-size: 2rem;
+@media (width <= 855px) {
+    .cards {
+        grid-template-columns: 1fr;
     }
 
-    .card-info p {
-        font-size: 1.7rem;
+    .card-info::after {
+        display: none;
     }
 
-    .card-vantagens h2 {
+    .card-info {
+        text-align: start;
+        align-items: start;
+    }
+}
+
+@media (width <= 585px) {
+    .card-vantagens {
         font-size: 3rem;
     }
 
-    .card-especificacoes img {
-        min-width: 24px;
-    }
-
-    .card-especificacoes p  {
-        font-size: 1.7rem;
-    }
-
-    .card-especificacoes h3  {
-        font-size: 1.7rem;
-    }
-
-    li a {
-        font-size: 1.2rem;
-    }
 }
 
-@media (width <= 720px) {
+@media (width <= 515px) {
+    .card-vantagens {
+        font-size: 2rem;
+    }
 
     .card-info h1 {
-        font-size: 1.7rem;
+        font-size: 2.2rem;
     }
 
     .card-info p {
-        font-size: 1.4rem;
-    }
-
-
-    .card-especificacoes p  {
-        font-size: 1.4rem;
-    }
-
-    .card-especificacoes h3  {
-        font-size: 1.4rem;
-    }
-}
-
-@media (width <= 670px) {
-
-    .card-info h1 {
         font-size: 1.5rem;
     }
 
-    .card-info p {
-        font-size: 1.2rem;
+    .especificacoes-item h3 {
+        font-size: 1.5rem;
     }
 
-    .card-especificacoes p  {
-        font-size: 1.2rem;
+    .especificacoes-item p {
+        font-size: 1.5rem;
     }
 
-    .card-especificacoes h3  {
-        font-size: 1.2rem;
-    }
-}
-
-@media (width <= 640px) {
-
-    .card-info h1 {
-        font-size: 1.2rem;
-    }
-
-    .card-info p {
-        font-size: 1.1rem;
-    }
-
-    .card-vantagens h2 {
-        font-size: 2.5rem;
-    }
-
-    .card-especificacoes p  {
-        font-size: 0.9rem;
-    }
-
-    .card-especificacoes h3  {
-        font-size: 0.9rem;
+    .card-info {
+        text-align: start;
+        align-items: start;
     }
 }
 
-@media (width <= 610px) {
+@media (width <= 480px) {
 
-    .card-info h1 {
-        font-size: 1.2rem;
+    body {
+        gap: 3rem;
     }
 
-    .card-info p {
-        font-size: 1.1rem;
-    }
-
-    .card-vantagens h2 {
-        font-size: 2.5rem;
-    }
-
-    .card-especificacoes p  {
-        font-size: 0.8rem;
-    }
-
-    .card-especificacoes h3  {
-        font-size: 0.8rem;
-    }
-
-    .cards {
-        margin: 0 4rem;
+    header {
+        gap: 3rem;
     }
 
     li a {
         font-size: 1rem;
+    
     }
+    .card-vantagens {
+        font-size: 1.5rem;
+    }
+
+    .card-info h1 {
+        font-size: 1.2rem;
+    }
+
+    .card-info p {
+        font-size: 1.2rem;
+    }
+
+    .especificacoes-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .especificacoes-item p {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (width <= 395px) {
+
+    body {
+        gap: 3rem;
+    }
+
+    header {
+        gap: 3rem;
+    }
+
+    li a {
+        font-size: .8rem;
+    
+    }
+    .card-vantagens {
+        font-size: 1.2rem;
+    }
+
+    .card-info h1 {
+        font-size: 0.8rem;
+    }
+
+    .card-info p {
+        font-size: 0.8rem;
+    }
+
+    .especificacoes-item h3 {
+        font-size: 0.8rem;
+    }
+
+    .especificacoes-item p {
+        font-size: 0.8rem;
+    }
+
 }
