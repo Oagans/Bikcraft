@@ -1,7 +1,7 @@
 /* Definindo o tamanho da div main! */
 
 
-img {
+.bike img {
     max-width: 100%;
     object-fit: cover;
     height: 100%;
