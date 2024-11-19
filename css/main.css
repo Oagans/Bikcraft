@@ -59,6 +59,7 @@
   font-size: 5rem;
   text-align: end;
   align-self: center;
+  transition: background-color 0.5s ease-in-out;
 }
 
 .card-especificacoes {
@@ -67,6 +68,7 @@
   padding: 5rem 4rem;
   background-color: var(--color-card);
   position: relative;
+  transition: background-color 0.5s ease-in-out;
 
 }
 
@@ -77,6 +79,7 @@
   
 .especificacoes-item:nth-child(odd) {
   background-color: var(--color-fundo);
+  transition: background-color 0.5s ease-in-out;
 } 
 
 .icon {
