@@ -21,10 +21,11 @@ li {
 li a {
     color: var(--color-black);
     border: 0.15rem solid var(--color-fundo);
-    background: var(--color-light);
-    padding: 1rem 2rem;
+    background: var(--color-card);
+    padding: 1.5rem 3.5rem;
     font-size: 1.5rem;
     font-weight: 600;
+    border-radius: 0.4rem;
     text-transform: uppercase;
     text-decoration: none;
     transition: 0.3s;

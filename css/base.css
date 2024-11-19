@@ -1,11 +1,33 @@
 :root {
     --color-fundo: #f7f7f7;
-    --color-texto: #c6c6c6;
+    --color-texto: rgba(0, 0, 0, 0.2);
     --color-red: #ee2211;
     --color-buttom-hover: #900;
-    --color-light: #ffffff;
-    --color-black: #000;
+    --color-card: #ffffff;
+    --color-font: #000;
+    --onda-img: url(../img/onda-clara.svg)
 }
+
+@media (prefers-color-scheme: dark){
+    
+    .card-vantagens {
+        background-image: none;
+    }
+
+
+    :root {
+        --color-fundo: #111;
+        --color-card: #000;
+        --color-font: #fff;
+        --color-texto: rgba(255, 255, 255, 0.2);
+        --onda-img: url(../img/onda-escura.svg)
+        
+    }
+
+
+}
+
+
 
 * {
     margin: 0;
@@ -29,5 +51,6 @@ body {
     gap:7rem;
     justify-items: center;
     margin-top: 4rem;
+    color: var(--color-font);
 }
 

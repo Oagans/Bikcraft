@@ -5,7 +5,7 @@
 }
 
 .card-info {
-  background-color: var(--color-light);
+  background-color: var(--color-card);
   text-align: end;
   display: flex;
   flex-direction: column;
@@ -52,7 +52,7 @@
 .card-vantagens {
   color: var(--color-texto);
   background-color: var(--color-fundo);
-  background-image: url(../img/onda.svg);
+  background-image: var(--onda-img);
   background-position: center top;
   background-size: 40rem;
   padding: 2rem;
@@ -65,7 +65,7 @@
   display: flex;
   flex-direction: column;
   padding: 5rem 4rem;
-  background-color: var(--color-light);
+  background-color: var(--color-card);
   position: relative;
 
 }
